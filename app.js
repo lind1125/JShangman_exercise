@@ -1,19 +1,7 @@
-const catQuestion = () => {
-  let likesCats = confirm('Do you like cats?')
-  if (likesCats) {
-    alert('You\'re a cool cat.')
-  } else {
-    alert('Yeah, that\'s fine. You\'re still cool.')
-  }
-}
+// HANGMAN EXERCISE
 
+let words = ['fragrant', 'monkey', 'cherish', 'ocelot', 'pancake']
 
-const greeting = () => {
-let yourName = prompt('What\'s your name?')
+let gameWord = words[Math.floor(Math.random() * words.length)]
 
-alert('Hello, ' + yourName)
-catQuestion()
-}
-
-greeting()
-
+console.log(gameWord)
