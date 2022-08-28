@@ -14,6 +14,9 @@ for (let i=0; i<gameWord.length; i++) {
 
 let remainingLetters = gameWord.length;
 
+
+
+
 while (remainingLetters > 0) {
   alert(answerArr.join(' '));
   let guess = prompt('Guess a letter or click Cancel to quit the game');
