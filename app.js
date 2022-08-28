@@ -12,3 +12,7 @@ for (let i=0; i<gameWord.length; i++) {
 
 let remainingLetters = word.length
 
+while (remainingLetters > 0) {
+  alert(answerArr.join(' '))
+
+}
