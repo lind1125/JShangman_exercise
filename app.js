@@ -18,7 +18,7 @@
         // }
         
         
-        // Refactoring using functions
+// Refactoring using functions (Still requires accounting for capital letter guess and guess limits)
 let words = ['fragrant', 'monkey', 'cherish', 'ocelot', 'pancake'];
 
 const pickWord = () => {
